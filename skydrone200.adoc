@@ -1,0 +1,76 @@
+= Sky Drone 200 =
+
+== About the Project ==
+Based on our existing 'Drone-in-a-Box' solution, a prototype for a smaller system shall be developed.
+
+Design Goals:
+
+- Small UAV with a maximum takeoff weight of 250g.
+- Weatherproof (IP43)
+- Optimized for best-in-class range/endurance
+- Mechanically simple base station that can be deployed either fixed or moving on a vehicle
+- Potentially have a Network of Charging stations to go from station to station and have a 'swarm' of small drones.
+
+Target Use:
+
+- Quick aerial intelligence from a system deployed on a rescue vehicle that can be operated from remote command center
+- Surveying & Mapping
+
+== UAV ==
+
+Core Components:
+
+- flight controller
+- motor controller (4-in-1)
+- Sky Drone Core Compute Board
+- Sky Drone Charging Controller
+- downward facing camera
+- front facing camera
+- RTK-GPS module
+- RTK-GPS antenna
+- 4 motors
+- 4 props
+- Battery
+- 4G/5G Antennas
+- Gimbal / Gimbal Controller? (see below)
+
+=== Reference projects ===
+
+What is possible with a small drone?
+
+33g drone "Black Hornet":
+
+- https://www.flir.asia/products/black-hornet-prs/
+- https://www.youtube.com/watch?v=rm_xMuo2Ong
+
+250g drone reference projects:
+
+- Expert on long range 250g drones: https://www.youtube.com/user/F4EIZ/videos
+- https://www.youtube.com/watch?v=IGhF0htffao&feature=youtu.be
+- https://www.youtube.com/watch?v=IJXYMGN1wzQ
+- https://www.youtube.com/watch?v=butx8hOn3Ic
+
+=== Feasability of a Gimbal solution ===
+
+The drone will have two camera, one downward facing camera and one front facing camera.
+If the weight budget allows, it would be ideal to have a 2-axis gimbal supporting the front camera.
+
+Resources:
+
+- "gimbal is possible in 250g frame" https://www.rcgroups.com/forums/showthread.php?2731761-Challenge-build-Sub-250g-aerial-photography-quad-with-brushless-gimbal
+- "Without the gimbal, with a GF5030 props, the quad weights only 110g. With a 2s 3000mah li-on , flight time is between 50 and 60min."
+- https://jeanleflambeur.wordpress.com/2016/08/29/gimbal/
+- https://github.com/jeanleflambeur/silkopter/tree/master/printing/gimbal
+- https://es.aliexpress.com/store/product/2-x-2204-260kv-Motor-1-x-2805-140kv-Brushless-Gimbal-Motor-for-3-Axis-Brushless/727847_32561221044.html?spm=2114.04010208.3.1.VR03rn&ws_ab_test=searchweb201556_0,searchweb201602_5_10057_10065_10056_10055_10054_10044_10043_301_10033_10059_10032_10058_10017_107_10041_10042_10060_10061_10052_414_10062_10053_10050_10051,searchweb201603_4&btsid=6e73e13e-f77b-4c83-ab78-d2f3cc0a94a9
+
+== Base Station ==
+
+Considerations:
+
+- 12V power supply (usable on a vehicle)
+- RTK GPS (use on vehicle)
+- 4G/5G connected
+- miniminze number of actuators required
+- ability to firmly hold the drone (e.g. vehicle use)
+- low power (can be solar powered with small panel/buffer battery)
+

@@ -1,0 +1,19 @@
+= Component Overview and Research for 250g class Drone =
+
+== Battery ==
+
+== Motors ==
+
+== Motor Controller ==
+
+== Props ==
+
+Prop size: typical 4" or 5" (larger -> more efficient)
+
+== GPS Antenna ==
+
+== 4G/5G Antenna ==
+
+== Off-the-shelf Airframes ==
+
+Diatone Grasshopper 160 G160 (28g) made fore 4" props (https://www.banggood.com/Diatone-Grasshopper-160-G160-Carbon-Fiber-Quadcopter-Frame-Kit-w-BEC-Power-Distribution-Board-p-995924.html?p=I32013833408201410RW&cur_warehouse=CN)
