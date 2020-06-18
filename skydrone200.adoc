@@ -16,6 +16,36 @@ Target Use:
 - Quick aerial intelligence from a system deployed on a rescue vehicle that can be operated from remote command center
 - Surveying & Mapping
 
+== Project Timeline and Milestones ==
+
+Time Frame: 2020-06-15 to 2020-09-30
+
+=== Milestone 1 - Fly a prototype based on off-the-shelf components and standard airframe. ===
+Due: 2020-07-15
+
+- Different component options and off-the-shelf airframes need to be chosen and assembled into a flyable prototype.
+- Iterate on components to incrementally improve performance, flight characteristics and optimize for target constraints (e.g. weight) by doing test flights.
+- Familiarize with our technology to control a drone via 4G/5G as well as via 'traditional' remote control.
+
+=== Milestone 2 - Custom Airframe and Base Station Design ===
+Due: 2020-08-15
+
+- Based on real-world testing insights gained in the previous project part, a custom airframe has to be designed which will then be manufactured and tested.
+- In collaboration with our mechanical engineer - develop a base station design optimized for the custom airframe.
+- Familiarize with our Simulation Environment ('Gazebo') and import/design the custom drone model in the Simulation Environment.
+
+=== Milestone 3 - Validation ===
+Due: 2020-09-15
+
+- Validation of custom design and performance assumptions by documenting flight tests including edge conditions (high winds, rain, etc.).
+- Optimization of the design based on test results.
+
+=== Milestone 4 - Project Documentation ===
+Due: 2020-09-30
+
+- Document the project, reflect on issues and possible future improvements.
+- 'Clean up' all project related files and documents for easy use by others.
+
 == UAV ==
 
 Core Components:
