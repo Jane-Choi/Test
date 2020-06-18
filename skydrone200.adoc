@@ -50,6 +50,11 @@ What is possible with a small drone?
 - https://www.youtube.com/watch?v=IJXYMGN1wzQ
 - https://www.youtube.com/watch?v=butx8hOn3Ic
 
+250g consumer drone:
+
+- https://www.dji.com/hk/mavic-mini
+- https://www.youtube.com/watch?v=hS_OjalEpZI
+
 === Feasability of a Gimbal solution ===
 
 The drone will have two camera, one downward facing camera and one front facing camera.

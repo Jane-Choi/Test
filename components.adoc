@@ -1,8 +1,20 @@
 = Component Overview and Research for 250g class Drone =
 
+== Flight Controller ==
+
+The flight controller needs to be able to run the PX4 flight stack (https://px4.io/).
+Also see https://docs.px4.io/v1.9.0/en/getting_started/flight_controller_selection.html
+
+== Camera ==
+
+Raspberry Pi Camera V2 Camera Module will be used:
+https://hken.rs-online.com/web/p/video-modules/9132664
+
 == Battery ==
 
 == Motors ==
+
+- DYS 1306 3100kV https://www.banggood.com/DYS-1306-3100KV-BX-Series-Brushless-Motor-For-Multicopter-CW-CCW-p-962149.html?p=I32013833408201410RW&cur_warehouse=CN
 
 == Motor Controller ==
 
