@@ -29,3 +29,7 @@ Prop size: typical 4" or 5" (larger -> more efficient)
 == Off-the-shelf Airframes ==
 
 Diatone Grasshopper 160 G160 (28g) made fore 4" props (https://www.banggood.com/Diatone-Grasshopper-160-G160-Carbon-Fiber-Quadcopter-Frame-Kit-w-BEC-Power-Distribution-Board-p-995924.html?p=I32013833408201410RW&cur_warehouse=CN)
+
+== Tools ==
+
+- Multicopter Performance Calculator https://www.ecalc.ch/xcoptercalc.php
